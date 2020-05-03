@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>软件最终用户许可协议
+
+(一).重要须知，请认真阅读：
+本《最终用户许可协议》（以下称《协议》）是您（单一实体）与开发者之间有关上述绿色软件产品的法律协议。 
+本“软件产品”包括计算机软件，并可能包括相关媒体、印刷材料和“联机”或电子文档（“软件产品”）。本“软件产品”还包括开发者提供给您的原“软件产品”的任何更新和补充资料。任何与本“软件产品”一同提供给您的并与单独一份最终用户许可证相关的软件产品是根据那份许可协议中的条款而授予您。您一旦安装、复制、下载、访问或以其它方式使用“软件产品”，即表示您同意接受本《协议》各项条款的约束。如您不同意本《协议》中的条款，请不要安装或使用“软件产品”
+
+(二).软件产品许可证：
+本“软件产品”受袒护著作权法及国际著作权条约和其它知识产权法和条约的保护。本“软件产品”只许可使用，而不出售。
+1．许可证的授予：
+本《协议》授予您下列权利：
+①应用软件：您可在单一一台计算机上安装、使用、访问、显示、运行或以其它方式互相作用于（“运行”）本“软件产品” （或适用于同一操作系统的任何前版本）的一份副本。运行“软件产品”的计算机的主要用户可以制作另一份副本，仅供在丢失软件主体时恢复之用。
+②储存／网络用途：您还可以在您公司的其它计算机上运行“软件产品”但仅限于注册时所添之项目，您必须为增加的每个项目获得一份许可证。
+③保留权利：未明示授予的一切其它权利均为开发者所有
+2．其它权利和限制的说明：
+①组件的分隔：本“软件产品”是作为单一产品而被授予使用许可的，若开发者不允许，您不得将其组成部分分开在多台计算机上使用。
+②商标：本《协议》不授予您有关任何绿色软件商标或服务商标的任何权利。
+③出租：不得出租、租赁或出借本“软件产品”
+④支持服务：开发者可能为您提供与“软件产品”有关的支持服务（“支持服务”）。支持服务的使用受用户手册、“联机”文档和/或其它提供的材料中所述的各项政策和计划的制约。提供给您作为支持服务的一部份的任何附加软件代码应被视为本“软件产品”的一部分，并须符合本《协议》中的各项条款和条件。至于您提供给开发者作为支持服务的一部分的技术信息，开发者个人可将其用于商业用途，包括产品支持和开发。开发者在使用这些技术信息时不会以个人形式提及您。
+⑤软件转让：本"软件产品"的第一被许可人不可以对本《协议》及“软件产品”直接或间接向任何用户作转让。
+⑥终止：如您未遵守本《协议》的各项条款和条件，在不损害其它权利的情况下，开发者可终止本《协议》。如此类情况发生，您必须销毁“软件产品”的所有副本及其所有组成部分。
+⑦内容：本“软件产品”的一切信息内容均来源于网络，不代表开发者个人立场，可能包含但不限于暴力，流血，犯罪，违背道德等非现实内容描写，请注意自我控制，严禁在公共场合传播及阅读！未成年人严禁下载及浏览，因浏览产生的种种行为及损失将与作者无关，作者不承担任何责任！未满18岁严禁使用此软件！
+
+(三)．升级版本：
+如本“软件产品”标明为升级版本，您必须获取开发者标明为合格使用升级版本的产品的许可证方可使用本“软件产品” 。标明为升级版本的“软件产品”替换和/或补充（也可能使无能）使您有资格使用升级版本的基础的产品，您只可根据本《协议》的条款使用所产生的升级产品。如本“软件产品”是您获得许可作为单一产品使用的一套软件程序包中一个组件的升级版本，则本“软件产品”只可作为该单一产品包的一部分而使用和转让，并且不可将其分开使用在一台以上的计算机上。
+
+(四)．著作权：
+①本“软件产品”（可能包括但不限于本“软件产品”中所含的部分图象、照片、动画、录像、录音、音乐、文字和附加程序）、随附的印刷材料、及本“软件产品”的任何副本的产权和著作权，均由开发者个人拥有。通过使用“软件产品”可访问的内容的一切所有权和知识产权均属于各自内容所有者拥有，并可能受适用著作权或其它知识产权法和条约的保护。
+②本《协议》不授予您使用这些内容的权利。如果这份“软件产品”包括只以电子形式提供的文档，您可以打印一份该电子文档。您不可复制本“软件产品”随附的印刷材料。
+
+(五).备份副本：
+在按照本《协议》安装一份本“软件产品”副本后，您可以保留开发者用以提供给您本“软件产品”的原媒体，仅用于备份或存档之用。如果需要原媒体方可在计算机上使用“软件产品”，您可以复制一份“软件产品”副本仅用于备份或存档之用。除本《协议》中明文规定外，您不可复制本“软件产品”或随附本“软件产品”的印刷材料。如您是在中华人民共和国取得此软件产品，下列有限保证适用于您：
+①有限责任：在适用法律所允许的最大范围内，开发者在任何情况下绝不就因使用或不能使用“软件产品”或因提供或未提供支持服务所发生的任何特殊的、意外的、非直接的或间接的损失（包括，但不限于营业利润损失、营业中断、商业信息的遗失或任何其他金钱上的损失）承担赔偿责任，即使开发者事先被告知该损害发生的可能性。不论任何情况，开发者在本《协议》任何条款下不承担的任何责任但是，如果您已经与开发者达成支持服务协议，开发者就支持服务的全部赔偿责任应以该协议条款为准。
+②本《协议》受中华人民共和国法律管辖
+③如果您对本《协议》有什么问题，请同开发者联系</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAMAEBAIAAAAAAAoAQAANgAAACAgCAAAAAAA6AIAAF4BAAAwMAgAAAAAAGgGAABGBAAAKAAAABAA
+        AAAgAAAAAQAEAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAIAAAACAgACAAAAAgACAAICA
+        AACAgIAAwMDAAAAA/wAA/wAAAP//AP8AAAD/AP8A//8AAP///wAGZmZmZmZmYGZmb/Zm//Zmb/9m/2Zv
+        /2Zm//Zv9mb/9mZm/2b/Zm/2b/Zv9m/2b/Zm/2b/Zv9v9mZv9m/2/2/2Zmb/9v///2ZmZmb/b2ZmZm//
+        //////9mb2ZmZmZmZvZvb//////29m9mZmZmZmb2Zv///////2YGZmZmZmZmYIABAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIABAAAoAAAAIAAAAEAA
+        AAABAAQAAAAAAIACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAICAAIAAAACAAIAAgIAAAICA
+        gADAwMAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AIiIiIiIiIiIiIiIiIiIiIiP////+IiIiIiI
+        iP/////4j///+Ij///iIiIiPj///+I///4j/+I//iI//iI////iP//+Ij4iP+IiP//+I///4j//4iPiI
+        iIiIiIj4iI//+IhmZmZm//Zmj/+I//iI//iGZm//Zm//Zmj/+I/4j//4j/9m//Zm//Zm///4//iIiIb/
+        9m//Zmb/Zv//+I/4iIiGb/9m//Zm/2b///iP/4/4j/b/9m//Zv9m///4iP//+Ib/b/9m//b/Zv///4iI
+        //iGb/b/9m/2/2b///iIj//4hmb/b/////9m///4iP//+IZmb/b///ZmZv//iI/4//iGZmb///ZmZmb/
+        /4j/j/j4hv////////9m//iP+PiP+Ib2ZmZmZmZm9v+I//iIj/iG9v//////9vaIj/iI/4iIhvZmZmZm
+        Zmb2iI/4/4/4+IZv////////ZoiIiP+I+PiIZmZmZmZmZmiIj//4j/j4j/+IiP/4iP//////iIiIiI//
+        /4iI+I//////iIj/+PiP///4iP+I///4iIiI///4j///iP/4iPiIiIiIiP//+I////+I////iP/4iIj/
+        //iP////iPj4iP//j4iP///4j//////4iP//iI/4////+I//////////+Ij///////iIiIiIiIiIiIiI
+        iIiIiIiIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAoAAAAMAAAAGAAAAABAAQAAAAAAAAGAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        gAAAgAAAAICAAIAAAACAAIAAgIAAAMDAwACAgIAAAAD/AAD/AAAA//8A/wAAAP8A/wD//wAA////AHd3
+        d3d3d3d3d3d3d3d3d3d3d3d3d3d3d3//////////93d3d3f/////////////93////////93d3d3d3d3
+        d3f/////////93///////3d/////d3d3d3d3////////93//////d3f/////93d3d3d3d3//////93//
+        ///3d///d3//93d3///3d3//////93////93d3d3d3//93d3////d3f/////93////9393f3d3//d3d3
+        ////93d3////93////d3d/f3d3d3d3d3d3f/93d3////93////d3d/d3d3///////3d///d3d///939m
+        ZmZmZmZmZmZmZm///3d3//93d///93ZmZmb/9mZm///2Zmb///93//93f///93b//2Zv/2Zmb///Zmb/
+        ///3f//3d3d3d3Zm//Zm//ZmZv//9mb/////d///d3d3d3Zmb/9mb/9mZm//9mb/////d3//93d393Zm
+        Zv/2Zv/2Zmb//2b/////d3///3f/93//Zm//Zm//Zmb//2b/////d3f/////93b/9mb/9mb/9mZv/2b/
+        ////93d/////93Zv/2Zv/2Zv/2Zv/2b/////93d3d///93Zm//Zm//Zm//Zv/2b/////93d3d///93Zm
+        b/9mb/9mb/Zv/2b/////93d3f///93ZmZv/2Zv/2b////2b/////d3d/////93ZmZm//Zm///////2b/
+        ////d3f/////93ZmZmb/9m////9mZmb////3d3//d///93ZmZmZv////ZmZmZmb////3d///d/9/93Zm
+        ////////////9mb///93f//3//9/93Zv/////////////2b///d3//d/93//93b/ZmZmZmZmZmZmb/b/
+        //d///d3d3//93b/Zv/////////2b/b//3d//3d3d3//93b/Zv/////////2b/b3d3f/93d/93d393b/
+        ZmZmZmZmZmZmb/Z3d3//d/////d/93Zv//////////////b3d3/3d//3f/d/93Zm/////////////2b3
+        d3f3d/93f/d/939mZmZmZmZmZmZmZmh3d3f///93f/d/939mZmZmZmZmZmb/9o//d/////d3f/d393//
+        /3d3d///d3f//////////3d3f3d393////93d393d3f////////3d3d//3d/93//////d3d//3f/////
+        //d3d3d/////93////9/93f//3f/////d3d3d3d/////93/////3d///d3d/93d3d3d3d3d/////93//
+        ///3d///93d393d3d393d3d/////93//////93d/////93d///d3d3d/////93///////3d////3d///
+        /3d3d3f/////93////////d3d3d3////d3//d3//////93//////////d3d////3d3//d///////93//
+        ////////93d///d3f///////////93////////////////d3d///////////93d3d3d3d3d3d3d3d3d3
+        d3d3d3d3d3d3dwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+</value>
+  </data>
+</root>
